@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+Music-Player(ArtistsPage)
+        </title>
+        <link rel="stylesheet" href="./Assets/artist.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" href="./Assets/artistresponsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>	
+
+    </head>
+	<!--Body Starts here-->
+    <body>
+        <!--Top Navigation section starts here-->
+        <nav id="header-container">
+    <ul>
+    <li>
+        <div class="player-image"><img src="./Assets/logo.png"></div>
+    </li>
+    <li>
+        <div class="favourites">
+            <a href="#">Favourites</a>
+        </div>
+        </li>
+        <li>
+			<!--Search Bar-->
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <div class="search-icon"><img src="./Assets/106236_search_icon.png"></div>
+                <div class="microphone-icon"><img src="./Assets/2205213_mic_microphone_record_speak_icon.png"></div>
+            </div>
+        </li>
+        <li>
+			<!--Notification Icon-->
+            <div class="notification-icon">
+                <img src="./Assets/notification icon.png">
+            </div>
+        </li>
+        <li>
+            <div class="single-artist-image">
+                <img src="./Assets/popularartist3.jpg">
+            </div>
+        </li>
+</ul>
+</nav>
+<!--End of Navigation Section-->
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div>
+            <!--Artist Details>-->
+            <div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Jubin Nautiyal</b>
+      	     	   <br/>
+      	     	   <artist-type>Music Artist</artist-type>
+      	         </div>
+      	     	<followers>6.5M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+				Jubin Nautiyal is an Indian singer. Jubin was awarded Upcoming Male Vocalist of the Year at 8th Mirchi Music Awards, 2016 for his song "Zindagi Kuch Toh Bata (Reprise)" from Bajrangi Bhaijaan, another one of his achievements is the Rising Musical Star Award (2015) received at Zee Business Awards. Early in his career, he sang many songs, including several hit songs, for Hindi films. He has also recorded songs for films in various Indian languages. His famous songs include "Tum Hi Aana" and "Wafa Na Raas Aayee and "Bewafa Tera Masoom Chehra", his recent song "Lut Gaye" become a huge hit with 861 million views in 5 months.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	350 Tracks | 250 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="./Assets/jubinsong1.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Lut Gaye
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="./Assets/jubinsong2.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Tum Hi Aana
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="./Assets/jubinsong3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Taaron Ka Sheher
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="./Assets/jubinsong4.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Socha Hai
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="./Assets/jubinsong5.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Lo Safar
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 5-->
+    		<!--Song 6-->
+    		<div id="song">
+    			<div id="song-number">
+    			    06
+    			    <img src="./Assets/jubinsong6.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Agar Tum Sath Ho
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 6-->
+    		<!--Song 7-->
+    		<div id="song">
+    			<div id="song-number">
+    			    07
+    			    <img src="./Assets/jubinsong7.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Kisi Se Pyarr Ho Jaye
+    			    	<br/>
+    			    	<author>Jubin Nautiyal</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    	</div>
+    	<!--End of Song 7-->
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img"><img src="./Assets/popularartist11.jpg"></div>
+    		<div id="song-details">
+    			Guru Randhawa
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"><img src="./Assets/popularartist1.jpg"></div>
+    		<div id="song-details">
+    			Arijit Singh
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"><img src="./Assets/popularartist3.jpg"></div>
+    		<div id="song-details">
+    			Darsan Raval
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+			&nbsp;&nbsp;&nbsp;
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="./Assets/latesthindi1.jpg" alt="album image" style="margin-top: -6px;">
+    			    <div id="song-details">
+    			    	Mehendi Wale Hath
+    			    	<br/>
+    			    	</author>Guru Randhawa</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--ENd of song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="./Assets/latesthindi3.jpg" alt="album image" style="margin-top: -6px;">
+    			    <div id="song-details">
+    			    	Aabaad Barbaad
+    			    	<br/>
+    			    	<author>Arijit Singh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="./Assets/latesthindi4.jpg" alt="album image" style="margin-top: -6px;">
+    			    <div id="song-details">
+    			    	Baarish Ban Jana
+    			    	<br/>
+    			    	<author>Stebin Ben</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="./Assets/latestenglish3.jpg" alt="album image" style="margin-top: -6px;">
+    			    <div id="song-details">
+    			    	Intensions
+    			    	<br/>
+    			    	<author>Justin Bieber</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="./Assets/latestenglish1.jpg" alt="album image" style="margin-top: -6px;">
+    			    <div id="song-details">
+    			    	Seniorita
+    			    	<br/>
+    			    	<author>Camila Cabello</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 5-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+
+	<!--Footer starts here-->
+<footer>
+    <div class="active-song-description">
+        <!-- song image -->
+        <div id="song-image">
+            <img src="./Songs/Playlist8.png">
+        </div>
+        <!-- song name and author -->
+        <div class="song-desc">
+            <div>
+            Ranjha
+            </div>
+            <div>
+                B Praak
+            </div>
+            <!-- heart icon and ban icon -->
+        </div>
+        <div class="heart-and-ban-icon">
+            <span>
+                <i class="far fa-heart"></i>
+            </span>
+            <span>
+                <i class="fas fa-ban"></i>
+            </span>
+        </div>
+    </div>
+    <!-- these are the main player controls -->
+    <div class="player">
+        <div class="controls">
+            <div><i class="fas fa-random"></i></div>
+            <div><i class="fas fa-step-backward"></i></div>
+            <div><i class="fas fa-pause-circle"></i></div>
+            <div><i class="fas fa-step-forward"></i></div>
+            <div><i class="fas fa-redo"></i></div>
+        </div>
+        <!-- this is the slider -->
+        <div id="slider">
+            <!-- current time -->
+            <div class="time">
+                1:12
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+            </div>
+            <!-- total time -->
+            <div class="time">
+                4:24
+            </div>
+        </div>
+    </div>
+    <!-- other icons including the volume slider and all -->
+    <div class="extras">
+        <div>
+            <i class="fas fa-list-ul"></i>
+        </div>
+        <div>
+            <i class="fas fa-laptop"></i>
+        </div>
+        <div>
+            <i class="fas fa-volume-up"></i>
+        </div>
+        <div class="slidecontainer" style="width:30%;">
+            <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+        </div>
+        <div>
+            <i class="fas fa-expand-alt"></i>
+        </div>
+    </div>
+    </footer>
+	<!--End of Footer-->
+</body>
+</html>
